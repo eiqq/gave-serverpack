@@ -1,0 +1,21 @@
+# 켜는 데 필요한 것만 올린다. 켜면 생기는 라이브러리, 월드, 로그, 플레이어 정보, 받은 리소스팩(pack/), EULA 동의, server.properties 는 뺀다
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/run.bat
+!/run.sh
+!/server.jar
+!/server.properties.default
+!/bukkit.yml
+!/spigot.yml
+!/config/
+!/datapack/
+
+!/plugins/
+/plugins/*
+!/plugins/Gave.jar
+!/plugins/KAKC-2.0.0.jar
+!/plugins/Gave/
+/plugins/Gave/*
+!/plugins/Gave/config.yml

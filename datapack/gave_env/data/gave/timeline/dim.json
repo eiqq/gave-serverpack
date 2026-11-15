@@ -1,0 +1,57 @@
+{
+  "clock": "gave:dim",
+  "tracks": {
+    "minecraft:visual/fog_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#ffffff"
+        },
+        {
+          "ticks": 100,
+          "value": "#404040"
+        }
+      ]
+    },
+    "minecraft:visual/sky_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#ffffff"
+        },
+        {
+          "ticks": 100,
+          "value": "#404040"
+        }
+      ]
+    },
+    "minecraft:visual/cloud_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 100,
+          "value": "#ff404040"
+        }
+      ]
+    },
+    "minecraft:visual/sky_light_factor": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": 1.0
+        },
+        {
+          "ticks": 100,
+          "value": 0.7
+        }
+      ]
+    }
+  }
+}

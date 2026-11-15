@@ -1,0 +1,1089 @@
+{
+  "clock": "gave:theme",
+  "tracks": {
+    "minecraft:visual/fog_color": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#007c5236"
+        },
+        {
+          "ticks": 900,
+          "value": "#007c5236"
+        },
+        {
+          "ticks": 1000,
+          "value": "#ff7c5236"
+        },
+        {
+          "ticks": 1200,
+          "value": "#ff704a32"
+        },
+        {
+          "ticks": 1400,
+          "value": "#ff64422e"
+        },
+        {
+          "ticks": 1600,
+          "value": "#ff583a2a"
+        },
+        {
+          "ticks": 1800,
+          "value": "#ff4c3226"
+        },
+        {
+          "ticks": 2000,
+          "value": "#ff47525e"
+        },
+        {
+          "ticks": 2200,
+          "value": "#ff768c89"
+        },
+        {
+          "ticks": 2400,
+          "value": "#ff607475"
+        },
+        {
+          "ticks": 2600,
+          "value": "#ff4c5e61"
+        },
+        {
+          "ticks": 2800,
+          "value": "#ff3a4a50"
+        },
+        {
+          "ticks": 3000,
+          "value": "#ff3c1e19"
+        },
+        {
+          "ticks": 3200,
+          "value": "#ff351a16"
+        },
+        {
+          "ticks": 3400,
+          "value": "#ff2e1612"
+        },
+        {
+          "ticks": 3600,
+          "value": "#ff27120f"
+        },
+        {
+          "ticks": 3800,
+          "value": "#ff200e0c"
+        },
+        {
+          "ticks": 4000,
+          "value": "#ff0d0d12"
+        },
+        {
+          "ticks": 4200,
+          "value": "#ff0b0b0f"
+        },
+        {
+          "ticks": 4400,
+          "value": "#ff09090c"
+        },
+        {
+          "ticks": 4600,
+          "value": "#ff07070a"
+        },
+        {
+          "ticks": 4800,
+          "value": "#ff050507"
+        },
+        {
+          "ticks": 5000,
+          "value": "#ffc9b8a0"
+        },
+        {
+          "ticks": 5200,
+          "value": "#ffd1c0a8"
+        },
+        {
+          "ticks": 5400,
+          "value": "#ffd8c8b0"
+        },
+        {
+          "ticks": 5600,
+          "value": "#ffe0d0b8"
+        },
+        {
+          "ticks": 5800,
+          "value": "#ffe8d8c0"
+        }
+      ]
+    },
+    "minecraft:visual/sky_color": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#0093603f"
+        },
+        {
+          "ticks": 900,
+          "value": "#0093603f"
+        },
+        {
+          "ticks": 1000,
+          "value": "#ff93603f"
+        },
+        {
+          "ticks": 1200,
+          "value": "#ff815238"
+        },
+        {
+          "ticks": 1400,
+          "value": "#ff6f4532"
+        },
+        {
+          "ticks": 1600,
+          "value": "#ff5d382b"
+        },
+        {
+          "ticks": 1800,
+          "value": "#ff4b2a24"
+        },
+        {
+          "ticks": 2000,
+          "value": "#ff3d4c66"
+        },
+        {
+          "ticks": 2200,
+          "value": "#ff404e68"
+        },
+        {
+          "ticks": 2400,
+          "value": "#ff343f56"
+        },
+        {
+          "ticks": 2600,
+          "value": "#ff272f42"
+        },
+        {
+          "ticks": 2800,
+          "value": "#ff1a2230"
+        },
+        {
+          "ticks": 3000,
+          "value": "#ff42140f"
+        },
+        {
+          "ticks": 3200,
+          "value": "#ff37100c"
+        },
+        {
+          "ticks": 3400,
+          "value": "#ff2c0d0a"
+        },
+        {
+          "ticks": 3600,
+          "value": "#ff210a08"
+        },
+        {
+          "ticks": 3800,
+          "value": "#ff160605"
+        },
+        {
+          "ticks": 4000,
+          "value": "#ff08080d"
+        },
+        {
+          "ticks": 4200,
+          "value": "#ff06060a"
+        },
+        {
+          "ticks": 4400,
+          "value": "#ff040406"
+        },
+        {
+          "ticks": 4600,
+          "value": "#ff020203"
+        },
+        {
+          "ticks": 4800,
+          "value": "#ff000000"
+        },
+        {
+          "ticks": 5000,
+          "value": "#fff0b070"
+        },
+        {
+          "ticks": 5200,
+          "value": "#ffdbb690"
+        },
+        {
+          "ticks": 5400,
+          "value": "#ffc6bcb0"
+        },
+        {
+          "ticks": 5600,
+          "value": "#ffb1c2d0"
+        },
+        {
+          "ticks": 5800,
+          "value": "#ff9cc8f0"
+        }
+      ]
+    },
+    "minecraft:visual/sky_light_color": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#00ffd6ae"
+        },
+        {
+          "ticks": 900,
+          "value": "#00ffd6ae"
+        },
+        {
+          "ticks": 1000,
+          "value": "#ffffd6ae"
+        },
+        {
+          "ticks": 1200,
+          "value": "#fffcceaa"
+        },
+        {
+          "ticks": 1400,
+          "value": "#fffac7a5"
+        },
+        {
+          "ticks": 1600,
+          "value": "#fff8c0a0"
+        },
+        {
+          "ticks": 1800,
+          "value": "#fff5b89c"
+        },
+        {
+          "ticks": 2000,
+          "value": "#ffb8c6dc"
+        },
+        {
+          "ticks": 2200,
+          "value": "#ffb2c0d8"
+        },
+        {
+          "ticks": 2400,
+          "value": "#ffacbbd4"
+        },
+        {
+          "ticks": 2600,
+          "value": "#ffa6b6d0"
+        },
+        {
+          "ticks": 2800,
+          "value": "#ffa0b0cc"
+        },
+        {
+          "ticks": 3000,
+          "value": "#ffff9c7c"
+        },
+        {
+          "ticks": 3200,
+          "value": "#ffff9878"
+        },
+        {
+          "ticks": 3400,
+          "value": "#ffff9374"
+        },
+        {
+          "ticks": 3600,
+          "value": "#ffff8e70"
+        },
+        {
+          "ticks": 3800,
+          "value": "#ffff8a6c"
+        },
+        {
+          "ticks": 4000,
+          "value": "#ffc4cce0"
+        },
+        {
+          "ticks": 4200,
+          "value": "#ffc0c8dd"
+        },
+        {
+          "ticks": 4400,
+          "value": "#ffbcc4da"
+        },
+        {
+          "ticks": 4600,
+          "value": "#ffb8c0d7"
+        },
+        {
+          "ticks": 4800,
+          "value": "#ffb4bcd4"
+        },
+        {
+          "ticks": 5000,
+          "value": "#ffffe8d0"
+        },
+        {
+          "ticks": 5200,
+          "value": "#ffffeedc"
+        },
+        {
+          "ticks": 5400,
+          "value": "#fffff4e8"
+        },
+        {
+          "ticks": 5600,
+          "value": "#fffff9f3"
+        },
+        {
+          "ticks": 5800,
+          "value": "#ffffffff"
+        }
+      ]
+    },
+    "minecraft:visual/sky_light_factor": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": {
+            "value": 0.6,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 900,
+          "value": {
+            "value": 0.6,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1000,
+          "value": {
+            "value": 0.6,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 1200,
+          "value": {
+            "value": 0.55,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 1400,
+          "value": {
+            "value": 0.5,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 1600,
+          "value": {
+            "value": 0.45,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 1800,
+          "value": {
+            "value": 0.4,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2000,
+          "value": {
+            "value": 0.36,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2200,
+          "value": {
+            "value": 0.37,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2400,
+          "value": {
+            "value": 0.33,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2600,
+          "value": {
+            "value": 0.28,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2800,
+          "value": {
+            "value": 0.24,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3000,
+          "value": {
+            "value": 0.25,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3200,
+          "value": {
+            "value": 0.23,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3400,
+          "value": {
+            "value": 0.21,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3600,
+          "value": {
+            "value": 0.19,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3800,
+          "value": {
+            "value": 0.17,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4000,
+          "value": {
+            "value": 0.13,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4200,
+          "value": {
+            "value": 0.12,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4400,
+          "value": {
+            "value": 0.11,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4600,
+          "value": {
+            "value": 0.1,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4800,
+          "value": {
+            "value": 0.09,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5000,
+          "value": {
+            "value": 0.8,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5200,
+          "value": {
+            "value": 0.85,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5400,
+          "value": {
+            "value": 0.9,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5600,
+          "value": {
+            "value": 0.95,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5800,
+          "value": {
+            "value": 1.0,
+            "alpha": 1.0
+          }
+        }
+      ]
+    },
+    "minecraft:visual/ambient_light_color": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#000a0a0a"
+        },
+        {
+          "ticks": 900,
+          "value": "#000a0a0a"
+        },
+        {
+          "ticks": 1000,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 1200,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 1400,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 1600,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 1800,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 2000,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 2200,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 2400,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 2600,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 2800,
+          "value": "#001a0c0a"
+        },
+        {
+          "ticks": 3000,
+          "value": "#ff1a0c0a"
+        },
+        {
+          "ticks": 3200,
+          "value": "#ff1a0c0a"
+        },
+        {
+          "ticks": 3400,
+          "value": "#ff1a0c0a"
+        },
+        {
+          "ticks": 3600,
+          "value": "#ff1a0c0a"
+        },
+        {
+          "ticks": 3800,
+          "value": "#ff1a0c0a"
+        },
+        {
+          "ticks": 4000,
+          "value": "#ff0b0d12"
+        },
+        {
+          "ticks": 4200,
+          "value": "#ff0b0d12"
+        },
+        {
+          "ticks": 4400,
+          "value": "#ff0b0d12"
+        },
+        {
+          "ticks": 4600,
+          "value": "#ff0b0d12"
+        },
+        {
+          "ticks": 4800,
+          "value": "#ff0b0d12"
+        },
+        {
+          "ticks": 5000,
+          "value": "#000b0d12"
+        },
+        {
+          "ticks": 5200,
+          "value": "#000b0d12"
+        },
+        {
+          "ticks": 5400,
+          "value": "#000b0d12"
+        },
+        {
+          "ticks": 5600,
+          "value": "#000b0d12"
+        },
+        {
+          "ticks": 5800,
+          "value": "#000b0d12"
+        }
+      ]
+    },
+    "minecraft:visual/star_brightness": {
+      "modifier": "alpha_blend",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 900,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1000,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1200,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1400,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1600,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 1800,
+          "value": {
+            "value": 0.0,
+            "alpha": 0.0
+          }
+        },
+        {
+          "ticks": 2000,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2200,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2400,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2600,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 2800,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3000,
+          "value": {
+            "value": 0.12,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3200,
+          "value": {
+            "value": 0.09,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3400,
+          "value": {
+            "value": 0.06,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3600,
+          "value": {
+            "value": 0.03,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 3800,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4000,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4200,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4400,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4600,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 4800,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5000,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5200,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5400,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5600,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        },
+        {
+          "ticks": 5800,
+          "value": {
+            "value": 0.0,
+            "alpha": 1.0
+          }
+        }
+      ]
+    },
+    "minecraft:visual/cloud_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 900,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 1000,
+          "value": "#ffffd2b0"
+        },
+        {
+          "ticks": 1200,
+          "value": "#ffffccac"
+        },
+        {
+          "ticks": 1400,
+          "value": "#ffffc5a8"
+        },
+        {
+          "ticks": 1600,
+          "value": "#ffffbea4"
+        },
+        {
+          "ticks": 1800,
+          "value": "#ffffb8a0"
+        },
+        {
+          "ticks": 2000,
+          "value": "#ffa8b4c4"
+        },
+        {
+          "ticks": 2200,
+          "value": "#ffa0acbd"
+        },
+        {
+          "ticks": 2400,
+          "value": "#ff98a4b6"
+        },
+        {
+          "ticks": 2600,
+          "value": "#ff909caf"
+        },
+        {
+          "ticks": 2800,
+          "value": "#ff8894a8"
+        },
+        {
+          "ticks": 3000,
+          "value": "#ffff7060"
+        },
+        {
+          "ticks": 3200,
+          "value": "#ffef6456"
+        },
+        {
+          "ticks": 3400,
+          "value": "#ffe0584c"
+        },
+        {
+          "ticks": 3600,
+          "value": "#ffd04c42"
+        },
+        {
+          "ticks": 3800,
+          "value": "#ffc04038"
+        },
+        {
+          "ticks": 4000,
+          "value": "#00ffffff"
+        },
+        {
+          "ticks": 4200,
+          "value": "#00ffffff"
+        },
+        {
+          "ticks": 4400,
+          "value": "#00ffffff"
+        },
+        {
+          "ticks": 4600,
+          "value": "#00ffffff"
+        },
+        {
+          "ticks": 4800,
+          "value": "#00ffffff"
+        },
+        {
+          "ticks": 5000,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 5200,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 5400,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 5600,
+          "value": "#ffffffff"
+        },
+        {
+          "ticks": 5800,
+          "value": "#ffffffff"
+        }
+      ]
+    },
+    "minecraft:visual/moon_phase": {
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 900,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 1000,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 1800,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 2000,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 2800,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 3000,
+          "value": "new_moon"
+        },
+        {
+          "ticks": 3800,
+          "value": "new_moon"
+        },
+        {
+          "ticks": 4000,
+          "value": "new_moon"
+        },
+        {
+          "ticks": 4800,
+          "value": "new_moon"
+        },
+        {
+          "ticks": 5000,
+          "value": "full_moon"
+        },
+        {
+          "ticks": 5800,
+          "value": "full_moon"
+        }
+      ]
+    },
+    "minecraft:visual/ambient_particles": {
+      "modifier": "append",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": []
+        },
+        {
+          "ticks": 900,
+          "value": []
+        },
+        {
+          "ticks": 1000,
+          "value": []
+        },
+        {
+          "ticks": 1800,
+          "value": []
+        },
+        {
+          "ticks": 2000,
+          "value": []
+        },
+        {
+          "ticks": 2800,
+          "value": []
+        },
+        {
+          "ticks": 3000,
+          "value": [
+            {
+              "particle": {
+                "type": "minecraft:ash"
+              },
+              "probability": 0.02
+            },
+            {
+              "particle": {
+                "type": "minecraft:crimson_spore"
+              },
+              "probability": 0.004
+            }
+          ]
+        },
+        {
+          "ticks": 3800,
+          "value": [
+            {
+              "particle": {
+                "type": "minecraft:ash"
+              },
+              "probability": 0.02
+            },
+            {
+              "particle": {
+                "type": "minecraft:crimson_spore"
+              },
+              "probability": 0.004
+            }
+          ]
+        },
+        {
+          "ticks": 4000,
+          "value": []
+        },
+        {
+          "ticks": 4800,
+          "value": []
+        },
+        {
+          "ticks": 5000,
+          "value": []
+        },
+        {
+          "ticks": 5800,
+          "value": []
+        }
+      ]
+    }
+  }
+}

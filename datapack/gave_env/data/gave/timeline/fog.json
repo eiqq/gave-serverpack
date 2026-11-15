@@ -1,0 +1,188 @@
+{
+  "clock": "gave:fog",
+  "period_ticks": 600,
+  "tracks": {
+    "minecraft:visual/fog_start_distance": {
+      "keyframes": [
+        {
+          "ticks": 15,
+          "value": 40.0
+        },
+        {
+          "ticks": 85,
+          "value": 40.0
+        },
+        {
+          "ticks": 115,
+          "value": 4.0
+        },
+        {
+          "ticks": 185,
+          "value": 4.0
+        },
+        {
+          "ticks": 215,
+          "value": 16.0
+        },
+        {
+          "ticks": 285,
+          "value": 16.0
+        },
+        {
+          "ticks": 315,
+          "value": 10.0
+        },
+        {
+          "ticks": 385,
+          "value": 10.0
+        },
+        {
+          "ticks": 415,
+          "value": 4.0
+        },
+        {
+          "ticks": 485,
+          "value": 4.0
+        },
+        {
+          "ticks": 515,
+          "value": 0.0
+        },
+        {
+          "ticks": 585,
+          "value": 0.0
+        }
+      ]
+    },
+    "minecraft:visual/fog_end_distance": {
+      "keyframes": [
+        {
+          "ticks": 15,
+          "value": 160.0
+        },
+        {
+          "ticks": 85,
+          "value": 160.0
+        },
+        {
+          "ticks": 115,
+          "value": 64.0
+        },
+        {
+          "ticks": 185,
+          "value": 64.0
+        },
+        {
+          "ticks": 215,
+          "value": 52.0
+        },
+        {
+          "ticks": 285,
+          "value": 52.0
+        },
+        {
+          "ticks": 315,
+          "value": 38.0
+        },
+        {
+          "ticks": 385,
+          "value": 38.0
+        },
+        {
+          "ticks": 415,
+          "value": 26.0
+        },
+        {
+          "ticks": 485,
+          "value": 26.0
+        },
+        {
+          "ticks": 515,
+          "value": 14.0
+        },
+        {
+          "ticks": 585,
+          "value": 14.0
+        }
+      ]
+    },
+    "minecraft:visual/sky_fog_end_distance": {
+      "keyframes": [
+        {
+          "ticks": 15,
+          "value": 220.0
+        },
+        {
+          "ticks": 85,
+          "value": 220.0
+        },
+        {
+          "ticks": 115,
+          "value": 64.0
+        },
+        {
+          "ticks": 185,
+          "value": 64.0
+        },
+        {
+          "ticks": 215,
+          "value": 52.0
+        },
+        {
+          "ticks": 285,
+          "value": 52.0
+        },
+        {
+          "ticks": 315,
+          "value": 38.0
+        },
+        {
+          "ticks": 385,
+          "value": 38.0
+        },
+        {
+          "ticks": 415,
+          "value": 26.0
+        },
+        {
+          "ticks": 485,
+          "value": 26.0
+        },
+        {
+          "ticks": 515,
+          "value": 14.0
+        },
+        {
+          "ticks": 585,
+          "value": 14.0
+        }
+      ]
+    },
+    "minecraft:visual/fog_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#f2c79a"
+        },
+        {
+          "ticks": 599,
+          "value": "#f2c79a"
+        }
+      ]
+    },
+    "minecraft:visual/sky_color": {
+      "modifier": "multiply",
+      "keyframes": [
+        {
+          "ticks": 0,
+          "value": "#e9c6a0"
+        },
+        {
+          "ticks": 599,
+          "value": "#e9c6a0"
+        }
+      ]
+    }
+  }
+}
