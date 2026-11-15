@@ -35,16 +35,6 @@ if [ "$HAVE" != "$PACK_SHA1" ]; then
   curl -fL --retry 3 -o pack/Gave-pack.zip "$PACK_URL" || { echo "리소스팩을 받지 못했습니다: $PACK_URL"; exit 1; }
 fi
 
-if ! grep -qx 'eula=true' eula.txt 2>/dev/null; then
-  echo "마인크래프트 서버를 켜려면 Mojang 최종 사용자 사용권 계약(EULA)에 동의해야 합니다: https://aka.ms/MinecraftEULA"
-  printf "EULA 에 동의합니까? [y/N] "
-  read -r ans
-  case "$ans" in
-    y|Y) echo "eula=true" > eula.txt ;;
-    *) echo "동의하지 않아 서버를 켜지 않습니다."; exit 1 ;;
-  esac
-fi
-
 echo "게이브 서버를 25565 포트로 켭니다. 끌 때는 stop 을 입력하세요."
 exec java -Xms2G -Xmx4G -Dfile.encoding=UTF-8 -Dspark.backgroundProfiler=false -Dgave.packPort=8088 -Dgave.packUrl="$PACK_URL" \
   -Dgave.packDir=pack -Dgave.datapackDir=datapack/gave_env \

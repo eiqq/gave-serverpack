@@ -9,7 +9,7 @@
 
 1. 자바 25 를 설치한다: https://adoptium.net/temurin/releases/?version=25 (설치할 때 PATH 에 추가를 켠다)
 2. `run.bat` 을 두 번 누른다(리눅스, macOS 는 `./run.sh`).
-   - 처음 켤 때 리소스팩(약 95MB)을 받아 `pack/` 에 두고, Mojang EULA(https://aka.ms/MinecraftEULA) 동의를 묻는다.
+   - 처음 켤 때 리소스팩(약 95MB)을 받아 `pack/` 에 둔다. Mojang EULA(https://aka.ms/MinecraftEULA)는 `eula.txt` 에 미리 동의해 두었다(이 서버를 켜면 그 계약에 동의하는 것).
    - 처음에는 Paper 가 Mojang 서버 파일을 받느라 1~2분 걸린다. 월드 `gave_plaza` 는 플러그인이 만든다.
    - 서버 설정 `server.properties` 는 처음 켤 때 `server.properties.default` 에서 복사된다. 고칠 때는 `server.properties` 를 고친다.
 3. 다른 PC 에서 들어오게 하려면 공유기(포트 포워딩)와 방화벽에서 **25565**(게임)와 **8088**(팩 예비)을 이 PC 로 연다.

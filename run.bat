@@ -28,22 +28,9 @@ set "PACK_SHA1=e1b9abedf352d5b3529b1f9cc66998bf72d6dac9"
 if not exist pack mkdir pack
 set "HAVE="
 if exist pack\Gave-pack.zip for /f "usebackq delims=" %%h in (`powershell -NoProfile -Command "(Get-FileHash -Algorithm SHA1 -LiteralPath 'pack\Gave-pack.zip').Hash.ToLower()"`) do set "HAVE=%%h"
-if /i "%HAVE%"=="%PACK_SHA1%" goto :eula
+if /i "%HAVE%"=="%PACK_SHA1%" goto :run
 echo 리소스팩을 받습니다. 약 95MB 라 조금 걸립니다.
 curl -fL --retry 3 -o pack\Gave-pack.zip "%PACK_URL%" || goto :nopack
-
-:eula
-rem Mojang EULA 동의
-findstr /i /b /c:"eula=true" eula.txt >nul 2>nul && goto :run
-echo 마인크래프트 서버를 켜려면 Mojang 최종 사용자 사용권 계약(EULA)에 동의해야 합니다.
-echo 계약 내용: https://aka.ms/MinecraftEULA
-choice /c YN /m "EULA 에 동의합니까? 동의하면 Y, 아니면 N"
-if errorlevel 2 (
-  echo 동의하지 않아 서버를 켜지 않습니다.
-  pause
-  exit /b 1
-)
-> eula.txt echo eula=true
 
 :run
 echo 게이브 서버를 25565 포트로 켭니다. 끌 때는 이 창에 stop 을 입력하세요.
