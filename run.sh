@@ -22,8 +22,8 @@ fi
 [ -f server.properties ] || cp server.properties.default server.properties
 
 # 리소스팩: github eiqq/danta-resourcepack 의 gave 브랜치. 서버가 이 파일을 읽고, 접속자에게는 이 주소를 보낸다
-PACK_URL="https://raw.githubusercontent.com/eiqq/danta-resourcepack/2c4d194197f36a4fa369833ea507b44d27bdeea4/gave_pack.zip"
-PACK_SHA1="e1b9abedf352d5b3529b1f9cc66998bf72d6dac9"
+PACK_URL="https://raw.githubusercontent.com/eiqq/danta-resourcepack/9c84d34d892d73a5ed28a66d1596a26e71b5a48c/gave_pack.zip"
+PACK_SHA1="aac4cc71706a509713cd728310d7c1bc09ef68ad"
 mkdir -p pack
 HAVE=""
 if [ -f pack/Gave-pack.zip ]; then

@@ -23,8 +23,8 @@ rem 서버 설정: 처음 한 번 기본값을 복사
 if not exist server.properties copy server.properties.default server.properties >nul
 
 rem 리소스팩: github eiqq/danta-resourcepack 의 gave 브랜치. 서버가 이 파일을 읽고, 접속자에게는 이 주소를 보낸다
-set "PACK_URL=https://raw.githubusercontent.com/eiqq/danta-resourcepack/2c4d194197f36a4fa369833ea507b44d27bdeea4/gave_pack.zip"
-set "PACK_SHA1=e1b9abedf352d5b3529b1f9cc66998bf72d6dac9"
+set "PACK_URL=https://raw.githubusercontent.com/eiqq/danta-resourcepack/9c84d34d892d73a5ed28a66d1596a26e71b5a48c/gave_pack.zip"
+set "PACK_SHA1=aac4cc71706a509713cd728310d7c1bc09ef68ad"
 if not exist pack mkdir pack
 set "HAVE="
 if exist pack\Gave-pack.zip for /f "usebackq delims=" %%h in (`powershell -NoProfile -Command "(Get-FileHash -Algorithm SHA1 -LiteralPath 'pack\Gave-pack.zip').Hash.ToLower()"`) do set "HAVE=%%h"
